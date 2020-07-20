@@ -1,4 +1,58 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  justify-items: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.hero1 {
+  border: 2px solid black;
+  padding: 10px;
+}
+.hero2 {
+  border: 2px solid black;
+  padding: 10px;
+}
+.villain1 {
+  border: 2px solid black;
+  padding: 10px;
+}
+.villain2 {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.hero1 > div {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.hero2 > div {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.villain1 > div {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.villain2 > div {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer {
+  margin-left: 80px;
+  font-size: 18px;
+  margin-top: 300px;
 }
